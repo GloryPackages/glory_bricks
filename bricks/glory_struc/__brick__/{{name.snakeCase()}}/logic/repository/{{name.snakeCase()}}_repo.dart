@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:dots/core/services/network/network_service.dart';
 import 'package:geeks_service/geeks_service.dart';
 
-
+import '../model/{{name.snakeCase()}}_model.dart';
 
 abstract class {{name.pascalCase()}}Repo{
   Future<Either<Failure, {{name.pascalCase()}}Model>> get{{name.pascalCase()}}();

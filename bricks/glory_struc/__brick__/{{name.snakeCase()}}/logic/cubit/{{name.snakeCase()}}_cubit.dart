@@ -1,10 +1,8 @@
 import 'package:bloc/bloc.dart';
-import 'package:dots/app/features/home/logic/model/home_model.dart';
-import 'package:dots/app/features/home/logic/repo/home_repo.dart';
 import 'package:equatable/equatable.dart';
 import 'package:geeks_service/service/response_status.dart';
 
-import '../../../../../core/services/network/fails_method.dart';
+import '../repository/{{name.snakeCase()}}_repo.dart';
 
 
 part '{{name.snakeCase()}}_state.dart';

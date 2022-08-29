@@ -6,6 +6,8 @@ bricks:
   hello: 0.1.0+1
   glory_struc: 
     path: bricks/glory_struc
+  glory_struc_init: 
+    path: bricks/glory_struc_init
   # Bricks can also be imported via git url.
   # Uncomment the following lines to import
   # a brick from a remote git url.
