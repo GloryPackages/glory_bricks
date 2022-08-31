@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class {{#pascalCase}}{{name}}Page {{/pascalCase}}  extends StatelessWidget {
- const {{#pascalCase}}{{name}}Page{{/pascalCase}} ({super.key});
+class {{name.pascalCase()}}Page  extends StatelessWidget {
+ const {{name.pascalCase()}}Page ({super.key});
 
  @override
   Widget build(BuildContext context) {
     return BlocProvider<{{name.pascalCase()}}Cubit>(
       create: (_) => injector<{{name.pascalCase()}}Cubit>()..get(),
-      child: const {{#pascalCase}}{{name}}View(),
+      child: const {{name.pascalCase()}}View(),
     );
   }
 }
-class {{#pascalCase}}{{name}}View extends StatelessWidget {
-  const {{#pascalCase}}{{name}}View({super.key});
+class {{name.pascalCase()}}View extends StatelessWidget {
+  const {{name.pascalCase()}}View({super.key});
 
   @override
   Widget build(BuildContext context) {
