@@ -5,8 +5,8 @@ class {{#pascalCase}}{{name}}Page {{/pascalCase}}  extends StatelessWidget {
 
  @override
   Widget build(BuildContext context) {
-    return BlocProvider<HomeCubit>(
-      create: (_) => injector<HomeCubit>()..fetch(),
+    return BlocProvider<{{name.pascalCase()}}Cubit>(
+      create: (_) => injector<{{name.pascalCase()}}Cubit>()..get(),
       child: const HomeBody(),
     );
   }
