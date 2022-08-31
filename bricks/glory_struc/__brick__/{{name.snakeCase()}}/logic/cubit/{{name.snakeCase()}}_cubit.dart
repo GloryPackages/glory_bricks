@@ -3,6 +3,8 @@ import 'package:equatable/equatable.dart';
 import 'package:geeks_service/service/response_status.dart';
 
 import '../repository/{{name.snakeCase()}}_repo.dart';
+import '../../../../../core/services/network/fails_method.dart';
+
 
 
 part '{{name.snakeCase()}}_state.dart';
