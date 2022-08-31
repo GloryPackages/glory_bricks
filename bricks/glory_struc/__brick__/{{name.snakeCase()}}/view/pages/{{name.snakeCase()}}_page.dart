@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../logic/cubit/checkout_cubit.dart';
 
 class {{name.pascalCase()}}Page  extends StatelessWidget {
  const {{name.pascalCase()}}Page ({super.key});
